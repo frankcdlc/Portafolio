@@ -1,0 +1,42 @@
+.header{
+  background-color: var(--gray-100);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+.navbar--links{
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header--nombre{
+  color: var(--gray-900);
+}
+
+.navbar--links li{
+  list-style-type: none;
+}
+
+.navbar--links .link{
+  color: var(--pink-600);
+}
+
+.navbar--links .link:hover {
+  background-color: var(--pink-100);
+}
+
+.navbar--links .link:focus {
+  outline: 2px solid var(--pink-800);
+  outline-offset: 2px;
+}

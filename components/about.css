@@ -1,0 +1,40 @@
+.skillBox{
+  display: flex;
+  gap: 19.2px;
+}
+
+.skillGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.skillBox img{
+  margin-top: 2px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbiesGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(319px, 1fr));
+}
+
+.hobbiesGrid img{
+  width: 100%;
+  height: auto;
+}
+
+.hobbiesBox{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 96%;
+  margin-block-end: 16px;
+}
+
+.hobbiesBox h3{
+  padding-block-start: 10px;
+}
